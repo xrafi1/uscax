@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>United Student Council of Assam</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <a href="#"><img src="https://i.ibb.co/LdY0x63M/Picsart-25-07-17-16-26-22-776.png" alt="United Student Council of Assam Logo" border="0" /></a>
+                <span class="logo-text">United Student Council of Assam</span>
+            </div>
+            
+            <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <nav class="main-nav" id="main-nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#join" class="nav-btn">Join Now</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <h1>Empowering Manipuri Student Voices in Assam</h1>
+            <p>The leading student body for unity, advocacy, and cultural preservation. Join us to build a stronger future together.</p>
+            <div>
+                <a href="#join" class="btn">Join Our Movement</a>
+                <a href="#contact" class="btn btn-outline">Contact Us</a>
+            </div>
+        </section>
+        
+        <section id="about" class="content-section">
+            <h2>A Brief About USCA</h2>
+            <p class="intro">
+                The United Student Council of Assam (USCA) is the leading student-led body devoted to the empowerment, representation, and cultural preservation of Manipuri-speaking students in Assam. As a dedicated and <strong>non-political</strong> platform, USCA bridges the gap between students and leadership, nurturing unity and a collective voice for a stronger future.
+            </p>
+        </section>
+
+        <section class="pillars-section">
+            <div class="pillars-container">
+                <div class="pillar-card">
+                    <div class="icon"><i class="fas fa-users"></i></div>
+                    <h3>Uniting Manipuri Students</h3>
+                    <p>USCA acts as a united front for all Manipuri students in Assam, creating a strong network to encourage mutual support, cultural pride, and educational growth.</p>
+                </div>
+                <div class="pillar-card">
+                    <div class="icon"><i class="fas fa-lightbulb"></i></div>
+                    <h3>Empowering Youth Leadership</h3>
+                    <p>USCA is dedicated to nurturing leadership and confidence among Manipuri youth—providing platforms and resources for their educational, social, and personal development.</p>
+                </div>
+                <div class="pillar-card">
+                    <div class="icon"><i class="fas fa-shield-alt"></i></div>
+                    <h3>Preserving Identity & Rights</h3>
+                    <p>USCA stands firm in advocating for the cultural identity and rights of the Manipuri community through campaigns, awareness programs, and student engagement.</p>
+                </div>
+                <div class="pillar-card">
+                    <div class="icon"><i class="fas fa-gavel"></i></div>
+                    <h3>Driven by Purpose, Not Politics</h3>
+                    <p>USCA is a completely non-political organization, focusing only on the upliftment of Manipuri students. Our mission is clear: serve and support the community—without bias.</p>
+                </div>
+                <div class="pillar-card">
+                    <div class="icon"><i class="fas fa-landmark"></i></div>
+                    <h3>Sustaining Manipuri Culture</h3>
+                    <p>With a strong commitment to heritage, USCA promotes traditional practices, language, and festivals, ensuring Manipuri culture thrives for generations to come.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="join" class="form-container">
+            <h2>Join Our Organization</h2>
+            <div id="form-messages"></div>
+            <form id="joinForm">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                <div class="form-group">
+                    <label for="college">College/University in Assam</label>
+                    <input type="text" id="college" name="college" required>
+                </div>
+                <button type="submit" class="btn" id="submit-btn">Submit Application</button>
+            </form>
+        </section>
+
+        <section id="contact" class="content-section">
+            <h2>Contact Us</h2>
+            <p>For any inquiries, support, or to get in touch with our team, please use the contact details below. We look forward to hearing from you.</p>
+            <div id="contact-info">
+                <p>Loading contact information...</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2024 United Student Council of Assam. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
